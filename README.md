@@ -1,7 +1,8 @@
 #A Replica of a website using purely REACT
-https://github.com/AryanSuwalka/tasks/issues/1#issue-2469061670
-https://github.com/user-attachments/assets/27afdc20-55ed-4e68-9068-d75e00817721
 
+
+
+https://github.com/user-attachments/assets/c82e28e2-8d92-4b2a-a1bd-15fd51b7ced1
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
