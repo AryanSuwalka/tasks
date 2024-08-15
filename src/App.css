@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background: linear-gradient(180deg, #10002b, #240046) no-repeat;
   color: white;
+  font-family: 'Poppins', sans-serif;
+  background-attachment: fixed;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-background {
+  background: url('path_to_starry_background_image') center center / cover no-repeat;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(32,28,63,0.7) 0%, rgba(8,6,23,0.9) 100%);
+}
+.logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
 }
