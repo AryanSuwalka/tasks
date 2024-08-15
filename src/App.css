@@ -5,12 +5,12 @@ body {
   background-attachment: fixed;
 }
 
-.hero-background {
+/* .hero-background {
   background: url('path_to_starry_background_image') center center / cover no-repeat;
   position: relative;
-}
+} */
 
-.hero-background::before {
+/* .hero-background::before {
   content: "";
   position: absolute;
   top: 0;
@@ -18,8 +18,11 @@ body {
   width: 100%;
   height: 100%;
   background: radial-gradient(circle, rgba(32,28,63,0.7) 0%, rgba(8,6,23,0.9) 100%);
-}
+} */
 .logo {
   width: 150px; /* Adjust size as needed */
   height: auto;
 }
+
+
+
